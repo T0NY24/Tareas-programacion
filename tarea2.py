@@ -63,7 +63,7 @@ elif vocal == 'A' or vocal == 'E' or vocal == 'I' or vocal =='O' or vocal == 'U'
     print("False")
 #ejercisio 6 simple
 nombre = input("ingrese su nombre")
-apellido=input("por favor ingrese su edad")
+apellido = input("por favor ingrese su edad")
 print("que tengas un excelente dia " (nombre+apellido));
 #ejercisio 7 lista mayor
 lista=[9,1,2,3,4,8,6,7]
@@ -80,7 +80,14 @@ def main(lista):
     print ("El número mayor es: ", min(lista))
  
 main(lista)
-#ejercisio 8 multiplicar
+#ejercisio  multiplicar
+def multiplicar_lista(numeros):
+    producto =1
+    for numero in numeros:
+        producto*= numero
+    return producto
+numeros=[1,2,3,4,5]
+print(multiplicar_lista(numeros))
 
 
 
